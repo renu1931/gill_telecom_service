@@ -389,7 +389,10 @@ export default function Home() {
       </div>
       {/* lets talk section complete*/}
       {/* our clients slider start*/}
-      <div className="container py-5">
+      <div
+        className="container-fluid py-5"
+        style={{ backgroundColor: "#80808047" }}
+      >
         <div className="row">
           <div className="col-md-5">
             <h1 id="our_clients">

@@ -16,7 +16,7 @@
   z-index: 99999;
 }
 #navbar_ul{
- padding-left: 540px;
+ padding-left: 505px;
 }
 #navbar_ul li{
   padding-left: 22px;
@@ -470,7 +470,354 @@ color: #FF8900;
 /* About section css start */
 #about_img{
   margin-top: -130px;
-  height: 650px;
+  height: 510px;
   width: 1348px;
   margin-left: -12px;
+  position: relative;
+  background-size: cover;
+ background-position: center;
+}
+#about-h2{
+ color: white;
+ position: absolute;
+ left: 46%;
+ top: 53%;
+ font-size: 40px;
+ z-index: 1;
+ }
+ #about-h6{
+  position: absolute;
+  left: 46%;
+  bottom: 32%;
+  z-index: 1;
+}
+#about-h6 a{
+text-decoration: none;
+color: #fff;
+z-index: 1;
+}
+ #about-h6 i{
+padding-left: 5px;
+color: #fff;
+z-index: 1;
+ }
+ #about_image-text::after{
+   position: absolute;
+   color: red;
+  top: 0%;
+  height: 80%;
+  width: 80%;
+  margin-left: -12px;
+   content: "";
+   background-color: #1a181833;
+   background-size: cover;
+   overflow: hidden;
+ }
+ #about_us-h3{
+   color: #FF8900;
+   font-family: 'Roboto Slab',serif;
+   font-weight: 900;
+   font-size: 38px;
+   padding-bottom: 10px;
+ }
+ #about_us-p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(88, 82, 82);
+  line-height: 27px;
+  word-spacing: 2px;
+ }
+ #about_us_img{
+   width: 500px;
+   height: 390px;
+ }
+ /* web development  css in about section */
+ #web_development_about{
+   height: 520px;
+   width: 1348px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+ }
+ #background_image_text::before{
+  position: absolute;
+   color: red;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #2125296b;
+  background-size: cover;
+ 
+ }
+#background_about-para{
+ 
+ color: #000;
+ line-height: 30px;
+ word-spacing: 2px;
+ font-size: 18px;
+ font-weight: 600;
+ padding-top: 50px;
+ padding-left: 70px;
+ padding-right: 70px;
+ color: white;
+ overflow: hidden;
+  }
+  #background_about-para2{
+    color: #000;
+    line-height: 30px;
+    word-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+    overflow: hidden;
+  }
+  #on-text{
+    position: absolute;
+    top: 9%;
+  }  
+  #brandimg_logo{
+    margin-left: -8px;
+    width: 675px;
+    border-bottom: 2px solid white;
+  } 
+  #brand-para{
+    color: white;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto Slab',serif;
+    word-spacing: 2px;
+  }
+  #brand-para2{
+    color: white;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-family: 'Roboto Slab',serif;
+  }
+  /* services section image */
+  #services_section_first_image{
+    width: 1347.9px;
+    height: 500px;
+    margin-left: -12px;
+    margin-top: -127.5px;
+  }
+  #service_image-text::after{
+    position: absolute;
+    color: red;
+   top: 0%;
+   height: 78.7%;
+   width: 100%;
+   margin-left: -12px;
+    content: "";
+    background-color: #00000057;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /* card section css in services */
+  #card-1-img{
+    width: 300px;
+    height: 190px;
+    padding-top: 15px;
+  }
+  #card-h1{
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    word-spacing: 2px;
+    padding-top: 19px;
+    padding-bottom: 6px;
+  }
+  #card-p{
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-left: 5px;
+padding-right: 5px;
+}
+#card-p2{
+  text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-left: 5px;
+line-height: 32px;
+padding-right: 5px;
+letter-spacing: 0.3px;
+
+}
+#card1-btn-div{
+  text-align: center;
+  margin-bottom: 20px;
+}
+#card-1-btn{
+  text-align: center;
+  padding: 9px 18px;
+  border:  none;
+  background-color: #FF8900;
+  border-radius: 5px;
+  font-weight: 600;
+}
+#card-1-btn a{
+ text-decoration: none;
+ color: white;
+}
+#card-1-btn a i{
+  padding-left: 5px;
+}
+/* contact us page css */
+#about_image-text1::after{
+  position: absolute;
+  color: red;
+ top: 0%;
+ height: 80%;
+ width: 100%;
+ margin-left: -12px;
+  content: "";
+  background-color: #302e2e7a;
+  background-size: cover;
+  overflow: hidden;
+}
+#services-h2{
+  color: white;
+ position: absolute;
+ left: 44.5%;
+ top: 53%;
+ font-size: 40px;
+ z-index: 1;
+ }
+#contact-h1{
+  position: absolute;
+  top: 8%;
+  left: 42%;
+  color: #FF8900;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact-p{
+  position: absolute;
+  top: 15%;
+  left: 14%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact-h1 span{
+color: black;
+}
+#contact_details{
+ font-size: 30px;
+ font-weight: 600;
+ padding-left: 70px;
+ padding-bottom: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#contact_details span{
+color: #fff;
+}
+#contact-details-info h4{
+  font-size: 28px;
+  font-weight: 700;
+}
+#contact-icon{
+background-color: #000;
+padding: 16px 18px;
+border-radius: 50%;
+color: #fff;
+margin-right: 15px;
+}
+#contact-icon2{
+  background-color: #000;
+  padding: 16px 16px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 15px;
+  margin-left: -25px;
+}
+#contact-icon3{
+  background-color: #000;
+  padding: 16px 16px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 15px;
+  margin-left: -20px;
+}
+#contact-main-para{
+  padding-left: 210px;
+  margin-top: -10px;
+ font-weight: 500;
+ color: #fff;
+}
+#contact-main-para span{
+margin-left: -100px;
+}
+#contact-main-para2{
+  padding-left: 114px;
+  margin-top: -10px;
+ font-weight: 500;
+ color: #fff;
+}
+#contact-main-para3{
+  padding-left: 55px;
+  margin-top: -10px;
+ font-weight: 500;
+ color: #fff;
+}
+#form-h1{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 26px;
+  padding-bottom: 15px;
+}
+#contact_input{
+  background-color: #fff;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 2px;
+  font-weight: 700;
+  border: none;
+}
+#contact_input2{
+  background-color: #fff;
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 190px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 2px;
+  font-weight: 700;
+  border: none;
+}
+#contact_input-btn{
+  padding: 10px 25px;
+  border: none;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+#contact_input-btn i{
+padding-left: 10px;
+font-size: 15px;
+}
+#map-section{
+  height: 490px;
+}
+#map-iframe{
+  height: 490px;
+  width: 100%;
 }

@@ -88,7 +88,7 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          <hr id="footer-hr" />
+         
         </div>
       </div>
       <p id="footer-last-p">
