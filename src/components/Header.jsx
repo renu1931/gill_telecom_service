@@ -36,15 +36,7 @@ function Header() {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link  active"
-                href="/services"
-                id="home"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
+              <a className="nav-link  active" href="/services" id="home">
                 Services
               </a>
               <div

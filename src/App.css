@@ -1103,3 +1103,7 @@ filter: grayscale(100%);
 #show-1{
   margin-left: 20px;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}

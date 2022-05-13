@@ -43,7 +43,7 @@ export default function Clients() {
         class="container-fluid py-5"
         style={{
           backgroundImage: "url(" + clients_background + ")",
-          height: "2550px",
+          height: "auto",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -315,7 +315,7 @@ export default function Clients() {
                 <div id="show-1">
                   <img
                     width="260"
-                    height="234"
+                    height="204"
                     src="https://gilltelecom.com/wp-content/uploads/2021/09/snindia-480x480-2.jpg"
                     class="img-responsive"
                     alt="show-all"
@@ -362,7 +362,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" style={{ marginTop: "-30px" }}>
                   <img
                     width="260"
                     height="234"
@@ -412,7 +412,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" style={{ marginTop: "-30px" }}>
                   <img
                     width="260"
                     height="234"
@@ -462,7 +462,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex" }}>
-                <div id="show-1">
+                <div id="show-1" style={{ marginTop: "-30px" }}>
                   <img
                     width="260"
                     height="234"
@@ -511,14 +511,457 @@ export default function Clients() {
                   <h2 id="show-h2">Canadian Vegas Offers</h2>
                 </div>
               </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Old-Motor-Cycles-for-Sale-480x480-2.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Old Motorcycles for Sale</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-25px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/BSA-For-Sale-480x480-3.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">BSA for Sale</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Old-Motor-Bikes-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Old Motor Bikes</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-25px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/cashfromhome24-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Cash from Home24</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex" }}>
+                <div id="show-1" style={{ marginTop: "-25px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash24-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash24</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash365-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash365</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "20px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Carolinavallejo-480x480-2.png"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Carolinavallejo</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-10px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Lazyblood-480x480-1-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Lazyblood</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-40px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/CRUIZE-BEVERAGES-India-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Cruize Beverages</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-20px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Bohemian-Style-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Bohemian Style</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/neevraz.sg_-480x480-1.png"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Neevraz</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-30px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/aryan-public-school-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Aryan Public School</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-40px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Central-Institute-for-Research-on-Buffaloes-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">
+                    Central Institute for Research on Buffaloes
+                  </h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-20px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Urdhavobhava-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Udhravobhava</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Vidya-Bharti-Day-Boarding-Public-School-Bringing-Excellence-480x480-1.png"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Vidhya Bharti Day Boarding Public School</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-30px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/ameristar-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Ameri Star Services</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-48px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/all-india-ex-airmen-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">All India Ex-Airmen Wel</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-48px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/carmella-korner-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Carmella Korner</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidery-city-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery City</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidery-designs-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery Designs</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidey-shop-480x480-2.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery Shop</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/secrets-of-embroidery-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Secrets of Embroidery</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/steam-train-ride-480x480-2.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Steam Train Ride</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/incentivesolar-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Incentive Solar</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/BGC-Monash-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">The Wall Store</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/hisar-biz-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Online Business Page</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/surya-products-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Surya Products</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/EasyPlot-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">EasyPlot</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash24-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash24</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash365-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash365</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Car-Insurance-Quotes-Hub-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Car Insurance Quotes Hu</h2>
+                </div>
+                <div id="show-1" style={{ marginTop: "-50px" }}>
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/lavore-da-casa-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Lavorare Da Casa</h2>
+                </div>
+              </div>
             </div>
           </div>
           {/*show all images complete*/}
 
+          {/*automobile section start */}
           <div id="Automobile" class="container tab-pane fade">
             <br />
-            <p>hello2</p>
+            <div style={{ display: "flex" }}>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Old-Motor-Cycles-for-Sale-480x480-2.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Old Motorcycles for Sale</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/BSA-For-Sale-480x480-3.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">BSA for Sale</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Old-Motor-Bikes-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Old Motor Bikes</h2>
+              </div>
+            </div>
           </div>
+
+          {/*automobile section complete */}
+
           {/*bars section start */}
           <div id="Bars" class="container tab-pane fade">
             <br />
@@ -554,30 +997,422 @@ export default function Clients() {
             </div>
           </div>
           {/*beauty section complete */}
+
+          {/*blog section start */}
           <div id="Blog" class="container tab-pane fade">
             <br />
-            <p>hello4</p>
+            <div style={{ display: "flex" }}>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Carolinavallejo-480x480-2.png"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Carolinavallejo</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Lazyblood-480x480-1-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Lazyblood</h2>
+              </div>
+            </div>
           </div>
+          {/*blog section complete */}
+          {/*business section start */}
           <div id="Business" class="container tab-pane fade">
             <br />
-            <p>hello6</p>
+            <div style={{ flexDirection: "column" }}>
+              <div style={{ display: "flex" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/all-india-ex-airmen-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">All India Ex-Airmen Wel</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/carmella-korner-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Carmella Korner</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidery-city-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery City</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidery-designs-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery Designs</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/embroidey-shop-480x480-2.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Embroidery Shop</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/secrets-of-embroidery-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Secrets of Embroidery</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/steam-train-ride-480x480-2.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Steam Train Ride</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/incentivesolar-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Incentive Solar</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/BGC-Monash-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">The Wall Store</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/hisar-biz-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Online Business Page</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/surya-products-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Surya Products</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/EasyPlot-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">EasyPlot</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/jindal-structures-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Jindal Structure (Pvt.) Ltd</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/sanyam-consultant-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Sanyam Consultants</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Plaster-Deals1-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Plaster Deals</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/cashfromhome24-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Cash from Home24</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash24-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash24</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash365-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Real Cash365</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/Car-Insurance-Quotes-Hub-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Car Insurance Quotes Hu</h2>
+                </div>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/lavore-da-casa-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Lavorare Da Casa</h2>
+                </div>
+              </div>
+              <div style={{ display: "flex", marginTop: "20px" }}>
+                <div id="show-1">
+                  <img
+                    width="260"
+                    height="234"
+                    src="https://gilltelecom.com/wp-content/uploads/2021/09/ameristar-480x480-1.jpg"
+                    class="img-responsive"
+                    alt="show-all"
+                    loading="lazy"
+                    id="show-all"
+                  />
+                  <h2 id="show-h2">Ameri Star Services</h2>
+                </div>
+              </div>
+            </div>
           </div>
+          {/*business section complete */}
+
+          {/*education section start */}
           <div id="Education" class="container tab-pane fade">
             <br />
-            <p>hello7</p>
+            <div style={{ display: "flex" }}>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/aryan-public-school-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Aryan Public School</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Central-Institute-for-Research-on-Buffaloes-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">
+                  Central Institute for Research on Buffaloes
+                </h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Urdhavobhava-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Udhravobhava</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/Vidya-Bharti-Day-Boarding-Public-School-Bringing-Excellence-480x480-1.png"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Vidhya Bharti Day Boarding Public School</h2>
+              </div>
+            </div>
           </div>
+          {/*education section complete */}
+
+          {/*entertainment section start */}
           <div id="Entertainment" class="container tab-pane fade">
             <br />
-            <p>hello8</p>
+            <div id="show-1">
+              <img
+                width="260"
+                height="234"
+                src="https://gilltelecom.com/wp-content/uploads/2021/09/neevraz.sg_-480x480-1.png"
+                class="img-responsive"
+                alt="show-all"
+                loading="lazy"
+                id="show-all"
+              />
+              <h2 id="show-h2">Neevraz</h2>
+            </div>
           </div>
+          {/*entertainment section complete */}
+
+          {/*fashion section start */}
           <div id="Fashion" class="container tab-pane fade">
             <br />
-            <p>hello9</p>
+            <div id="show-1">
+              <img
+                width="260"
+                height="234"
+                src="https://gilltelecom.com/wp-content/uploads/2021/09/Bohemian-Style-480x480-1.jpg"
+                class="img-responsive"
+                alt="show-all"
+                loading="lazy"
+                id="show-all"
+              />
+              <h2 id="show-h2">Bohemian Style</h2>
+            </div>
           </div>
+          {/*fashion section complete */}
+
+          {/*food section start */}
           <div id="Food" class="container tab-pane fade">
             <br />
-            <p>hello10</p>
+            <div id="show-1">
+              <img
+                width="260"
+                height="234"
+                src="https://gilltelecom.com/wp-content/uploads/2021/09/CRUIZE-BEVERAGES-India-480x480-1.jpg"
+                class="img-responsive"
+                alt="show-all"
+                loading="lazy"
+                id="show-all"
+              />
+              <h2 id="show-h2">Cruize Beverages</h2>
+            </div>
           </div>
+          {/*food section complete */}
+
           {/*games section start */}
           <div id="Games" class="container tab-pane fade">
             <br />
@@ -780,17 +1615,58 @@ export default function Clients() {
             </div>
           </div>
           {/*lawyer section complete */}
+
+          {/*online section start*/}
           <div id="Online" class="container tab-pane fade">
             <br />
-            <p>hello15</p>
+            <div style={{ display: "flex" }}>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/cashfromhome24-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Cash from Home24</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash24-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Real Cash24</h2>
+              </div>
+              <div id="show-1">
+                <img
+                  width="260"
+                  height="234"
+                  src="https://gilltelecom.com/wp-content/uploads/2021/09/realcash365-480x480-1.jpg"
+                  class="img-responsive"
+                  alt="show-all"
+                  loading="lazy"
+                  id="show-all"
+                />
+                <h2 id="show-h2">Real Cash365</h2>
+              </div>
+            </div>
           </div>
+          {/*online section complete*/}
+
           {/*others section start*/}
           <div id="Others" class="container tab-pane fade">
             <br />
             <div id="show-1">
               <img
                 width="260"
-                height="234"
+                height="204"
                 src="https://gilltelecom.com/wp-content/uploads/2021/09/snindia-480x480-2.jpg"
                 class="img-responsive"
                 alt="show-all"
