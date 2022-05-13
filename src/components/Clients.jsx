@@ -158,7 +158,7 @@ export default function Clients() {
         {/*tab pins*/}
         {/*show all images*/}
         <div class="tab-content py-5">
-          <div id="Show" class="container tab-pane active">
+          <div id="Show" class="container tab-pane active" data-aos="zoom-in">
             <br />
             <div style={{ flexDirection: "column" }}>
               <div style={{ display: "flex" }}>
@@ -921,7 +921,7 @@ export default function Clients() {
           <div id="Automobile" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -933,7 +933,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Old Motorcycles for Sale</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -945,7 +945,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">BSA for Sale</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -965,7 +965,7 @@ export default function Clients() {
           {/*bars section start */}
           <div id="Bars" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -983,7 +983,7 @@ export default function Clients() {
           {/*beauty section start */}
           <div id="Beauty" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1002,7 +1002,7 @@ export default function Clients() {
           <div id="Blog" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1014,7 +1014,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Carolinavallejo</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1034,7 +1034,7 @@ export default function Clients() {
             <br />
             <div style={{ flexDirection: "column" }}>
               <div style={{ display: "flex" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1046,7 +1046,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">All India Ex-Airmen Wel</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1058,7 +1058,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Carmella Korner</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1070,7 +1070,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Embroidery City</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1084,7 +1084,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1096,7 +1096,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Embroidery Shop</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1108,7 +1108,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Secrets of Embroidery</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1120,7 +1120,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Steam Train Ride</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1134,7 +1134,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1146,7 +1146,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">The Wall Store</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1158,7 +1158,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Online Business Page</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1170,7 +1170,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Surya Products</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1184,7 +1184,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1196,7 +1196,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Jindal Structure (Pvt.) Ltd</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1208,7 +1208,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Sanyam Consultants</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1220,7 +1220,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Plaster Deals</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1234,7 +1234,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1246,7 +1246,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Real Cash24</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1258,7 +1258,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Real Cash365</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1270,7 +1270,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Car Insurance Quotes Hu</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1284,7 +1284,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1305,7 +1305,7 @@ export default function Clients() {
           <div id="Education" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1317,7 +1317,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Aryan Public School</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1331,7 +1331,7 @@ export default function Clients() {
                   Central Institute for Research on Buffaloes
                 </h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1343,7 +1343,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Udhravobhava</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1362,7 +1362,7 @@ export default function Clients() {
           {/*entertainment section start */}
           <div id="Entertainment" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1380,7 +1380,7 @@ export default function Clients() {
           {/*fashion section start */}
           <div id="Fashion" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1398,7 +1398,7 @@ export default function Clients() {
           {/*food section start */}
           <div id="Food" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1419,7 +1419,7 @@ export default function Clients() {
 
             <div style={{ flexDirection: "column" }}>
               <div style={{ display: "flex" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1431,7 +1431,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Slot Machine Bar</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1443,7 +1443,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Slot Machine Gratis</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1455,7 +1455,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Slot Machine Gratis Online</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1469,7 +1469,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1481,7 +1481,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Canada Palace Club</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1502,7 +1502,7 @@ export default function Clients() {
           <div id="Hospitals" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1514,7 +1514,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Shanti Hospital & Kshar</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1526,7 +1526,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Geetanjali Hospital</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1546,7 +1546,7 @@ export default function Clients() {
           <div id="Hotels" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1558,7 +1558,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Canadian Casino Hotel</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1570,7 +1570,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Canada Golden Palace</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1582,7 +1582,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Canada Palace Club</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1601,7 +1601,7 @@ export default function Clients() {
           {/*lawyer section start */}
           <div id="Lawyer" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1620,7 +1620,7 @@ export default function Clients() {
           <div id="Online" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1632,7 +1632,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Cash from Home24</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1644,7 +1644,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Real Cash24</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1663,7 +1663,7 @@ export default function Clients() {
           {/*others section start*/}
           <div id="Others" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="204"
@@ -1683,7 +1683,7 @@ export default function Clients() {
             <br />
             <div style={{ flexDirection: "column" }}>
               <div style={{ display: "flex" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1695,7 +1695,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Pleasant Hill</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1707,7 +1707,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Read n surf</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1719,7 +1719,7 @@ export default function Clients() {
                   />
                   <h2 id="show-h2">Activity Info</h2>
                 </div>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1733,7 +1733,7 @@ export default function Clients() {
                 </div>
               </div>
               <div style={{ display: "flex", marginTop: "20px" }}>
-                <div id="show-1">
+                <div id="show-1" data-aos="zoom-in">
                   <img
                     width="260"
                     height="234"
@@ -1753,7 +1753,7 @@ export default function Clients() {
           {/*technology start */}
           <div id="Technology" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
@@ -1772,7 +1772,7 @@ export default function Clients() {
           <div id="Travel" class="container tab-pane fade">
             <br />
             <div style={{ display: "flex" }}>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1784,7 +1784,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Vegas Best Offers</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1796,7 +1796,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Just Like Vegas</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1808,7 +1808,7 @@ export default function Clients() {
                 />
                 <h2 id="show-h2">Canadian Vegas Deals</h2>
               </div>
-              <div id="show-1">
+              <div id="show-1" data-aos="zoom-in">
                 <img
                   width="260"
                   height="234"
@@ -1827,7 +1827,7 @@ export default function Clients() {
           {/*welfare section start */}
           <div id="Welfare" class="container tab-pane fade">
             <br />
-            <div id="show-1">
+            <div id="show-1" data-aos="zoom-in">
               <img
                 width="260"
                 height="234"
