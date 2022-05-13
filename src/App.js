@@ -17,8 +17,17 @@ import Clients from "./components/Clients";
 import Products from "./components/Products";
 
 function App() {
+  (function($) {
+    $(window).on("load", function() {
+      $("#js-preloader").addClass("loaded");
+    });
+  })(window.jQuery);
+
   return (
     <div className="App">
+      <div id="js-preloader" class="js-preloader">
+        <div class="preloader"></div>
+      </div>
       <Header />
       <BrowserRouter>
         <Switch>

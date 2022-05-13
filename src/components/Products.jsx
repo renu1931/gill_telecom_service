@@ -46,25 +46,7 @@ import products_slider40 from "../images/products_slider40.jpg";
 import products_slider41 from "../images/products_slider41.jpg";
 import products_slider42 from "../images/products_slider42.jpg";
 
-
-
-
 export default function Products() {
-  const options = {
-    items: 1,
-    nav: true,
-    navText: [
-      "<div className='nav-btn prev-slide'></div>",
-      "<div className='nav-btn next-slide'></div>",
-    ],
-    rewind: true,
-    autoplay: true,
-    slideBy: 1,
-    dots: true,
-    dotsEach: true,
-    dotData: true,
-  };
-
   return (
     <>
       {/* image section start */}
@@ -90,16 +72,16 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={product_slider1} id="products1" />
+                <img src={product_slider1} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={product_slider2} id="products1" />
+                <img src={product_slider2} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={product_slider3} id="products1" />
+                <img src={product_slider3} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={product_slider4} id="products1" />
+                <img src={product_slider4} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider1">
@@ -111,16 +93,16 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider5} id="products1" />
+                <img src={products_slider5} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider6} id="products1" />
+                <img src={products_slider6} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider7} id="products1" />
+                <img src={products_slider7} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider8} id="products1" />
+                <img src={products_slider8} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider1">
@@ -132,16 +114,16 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider9} id="products1" />
+                <img src={products_slider9} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider10} id="products1" />
+                <img src={products_slider10} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider11} id="products1" />
+                <img src={products_slider11} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider12} id="products1" />
+                <img src={products_slider12} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider">
@@ -154,19 +136,19 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider13} id="products1" />
+                <img src={products_slider13} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider14} id="products1" />
+                <img src={products_slider14} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider15} id="products1" />
+                <img src={products_slider15} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider16} id="products1" />
+                <img src={products_slider16} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider17} id="products1" />
+                <img src={products_slider17} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider">
@@ -179,16 +161,16 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider18} id="products1" />
+                <img src={products_slider18} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider19} id="products1" />
+                <img src={products_slider19} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider20} id="products1" />
+                <img src={products_slider20} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider21} id="products1" />
+                <img src={products_slider21} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider">
@@ -200,19 +182,19 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider22} id="products1" />
+                <img src={products_slider22} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider23} id="products1" />
+                <img src={products_slider23} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider24} id="products1" />
+                <img src={products_slider24} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider25} id="products1" />
+                <img src={products_slider25} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider26} id="products1" />
+                <img src={products_slider26} id="products1" alt="my-pic" />
               </div>
             </OwlCarousel>
             <h5 id="product-slider2">
@@ -223,85 +205,80 @@ export default function Products() {
           <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider27} id="products1" />
+                <img src={products_slider27} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider28} id="products1" />
+                <img src={products_slider28} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider29} id="products1" />
+                <img src={products_slider29} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider30} id="products1" />
+                <img src={products_slider30} id="products1" alt="my-pic" />
               </div>
-
             </OwlCarousel>
             <h5 id="product-slider2">
-            SWAY-AC2.5E Magic Cool 2.5 Ton Split Air Conditioner
+              SWAY-AC2.5E Magic Cool 2.5 Ton Split Air Conditioner
             </h5>
           </div>
-           {/*8th slider*/}
-            <div className="col-md-4 py-5">
+          {/*8th slider*/}
+          <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider33} id="products1" />
+                <img src={products_slider33} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider32} id="products1" />
+                <img src={products_slider32} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider31} id="products1" />
+                <img src={products_slider31} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider34} id="products1" />
+                <img src={products_slider34} id="products1" alt="my-pic" />
               </div>
-
             </OwlCarousel>
             <h5 id="product-slider2">
-            SWAY-WM8.0SA 8 KG Semi Automatic Top Load Washing Machine
+              SWAY-WM8.0SA 8 KG Semi Automatic Top Load Washing Machine
             </h5>
           </div>
-         {/*9th slider*/}
-           <div className="col-md-4 py-5">
+          {/*9th slider*/}
+          <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider35} id="products1" />
+                <img src={products_slider35} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider36} id="products1" />
+                <img src={products_slider36} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider37} id="products1" />
+                <img src={products_slider37} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider38} id="products1" />
+                <img src={products_slider38} id="products1" alt="my-pic" />
               </div>
-
             </OwlCarousel>
             <h5 id="product-slider2">
-            SWAY-WM8.5SA 8.5 KG Semi Automatic Top Load Washing Machine
+              SWAY-WM8.5SA 8.5 KG Semi Automatic Top Load Washing Machine
             </h5>
           </div>
           {/*10th slider*/}
-           <div className="col-md-4 py-5">
+          <div className="col-md-4 py-5">
             <OwlCarousel className="owl-theme" loop margin={60} items={1}>
               <div class="item">
-                <img src={products_slider39} id="products1" />
+                <img src={products_slider39} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider40} id="products1" />
+                <img src={products_slider40} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider41} id="products1" />
+                <img src={products_slider41} id="products1" alt="my-pic" />
               </div>
               <div class="item">
-                <img src={products_slider42} id="products1" />
+                <img src={products_slider42} id="products1" alt="my-pic" />
               </div>
-
             </OwlCarousel>
             <h5 id="product-slider2">
-            SWAY-WM9.0SA 9 KG Semi Automatic Top Load Washing Machine
-
+              SWAY-WM9.0SA 9 KG Semi Automatic Top Load Washing Machine
             </h5>
           </div>
         </div>

@@ -37,20 +37,19 @@ export default function Home() {
               aria-labelledby="web-tab"
             >
               <img src={home_slide} alt="slider-img" id="home-slider-img" />
-              <div id="home_slide_overlay">
-                <h1 id="slider-h2" data-aos="fade-right">
-                  Web Design & Development
-                </h1>
-                <p id="slider-p" data-aos="fade-down-left">
-                  Gill Telecom Service is professional Web Design and Website
-                  <br /> Development company in India that supplies services of
-                  web
-                  <br /> design and development,
-                </p>
-                <button type="button" id="home_button">
-                  Read More
-                </button>
-              </div>
+              <div id="home_slide_overlay"> </div>
+              <h1 id="slider-h2" data-aos="fade-right">
+                Web Design & Development
+              </h1>
+              <p id="slider-p" data-aos="fade-down-left">
+                Gill Telecom Service is professional Web Design and Website
+                <br /> Development company in India that supplies services of
+                web
+                <br /> design and development,
+              </p>
+              <button type="button" id="home_button">
+                Read More
+              </button>
             </div>
             <div
               className="tab-pane fade"

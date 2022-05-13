@@ -11,7 +11,7 @@ export default function Clients() {
           <div className="col-md-12">
             <img src={clients} alt="my-img" id="about_img" />
 
-            <div id="about_image-text">
+            <div id="client_image-text">
               <h2 id="about-h2">Clients</h2>
               <h6 id="about-h6">
                 <a href="/">Home</a>

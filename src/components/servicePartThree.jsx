@@ -38,14 +38,14 @@ export default function servicePartThree() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={servicethree1} id="service-three-img" />
+            <img src={servicethree1} id="service-three-img" alt="my-pic" />
           </div>
         </div>
       </div>
       <div className="container pb-5">
         <div className="row py-4">
           <div className="col-md-6">
-            <img src={servicethree2} id="complete_design-img" />
+            <img src={servicethree2} id="complete_design-img" alt="my-pic" />
           </div>
           <div className="col-md-6">
             <p id="servicethree-para">

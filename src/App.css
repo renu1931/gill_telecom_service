@@ -45,15 +45,15 @@ background-color: orange;
 }
 /* home Section Css Start */
  #home-slider-img{
-  width: 1352.2px;
-  height: 580px;
+   width: 1352.2px;
+ height: 690px;
   position: relative;
   margin-left: -15px;
   margin-top: -130px;
   background-position: center;
   user-select: none;
-  background-color:rgb(153, 113, 40,0.08);
- } 
+  background-color:rgb(153, 113, 40,0.08); 
+ }
 #slider-h2{
   position: absolute;
   top: 24%;
@@ -82,7 +82,7 @@ background-color: orange;
   background-color: gray;
   position: absolute;
   left: 47%;
-  bottom: 13%;
+  bottom: 9%;
  }
  #slider_circle2{
   padding: 8px 8px;
@@ -91,7 +91,7 @@ background-color: orange;
   background-color: gray;
   position: absolute;
   left: 50%;
-  bottom: 13%;
+  bottom: 9%;
  }
  #slider_circle:hover{
 background-color: white;
@@ -471,7 +471,7 @@ color: #FF8900;
 /* About section css start */
 #about_img{
   margin-top: -130px;
-  height: 510px;
+  height: 690px;
   width: 1348px;
   margin-left: -12px;
   position: relative;
@@ -482,14 +482,14 @@ color: #FF8900;
  color: white;
  position: absolute;
  left: 46%;
- top: 53%;
+ top: 70%;
  font-size: 40px;
  z-index: 1;
  }
  #about-h6{
   position: absolute;
   left: 46%;
-  bottom: 32%;
+  bottom: 15%;
   z-index: 1;
 }
 #about-h6 a{
@@ -506,7 +506,7 @@ z-index: 1;
    position: absolute;
    color: red;
   top: 0%;
-  height: 80%;
+  height: 110%;
   width: 80%;
   margin-left: -12px;
    content: "";
@@ -514,6 +514,18 @@ z-index: 1;
    background-size: cover;
    overflow: hidden;
  }
+ #client_image-text::after{
+  position: absolute;
+  color: red;
+ top: 0%;
+ height: 108.2%;
+ width: 100%;
+ margin-left: -12px;
+  content: "";
+  background-color: #1a181833;
+  background-size: cover;
+  overflow: hidden;
+}
  #about_us-h3{
    color: #FF8900;
    font-family: 'Roboto Slab',serif;
@@ -609,7 +621,7 @@ z-index: 1;
   /* services section image */
   #services_section_first_image{
     width: 1347.9px;
-    height: 500px;
+    height: 690px;
     margin-left: -12px;
     margin-top: -127.5px;
   }
@@ -617,7 +629,7 @@ z-index: 1;
     position: absolute;
     color: red;
    top: 0%;
-   height: 78.7%;
+   height: 108.6%;
    width: 100%;
    margin-left: -12px;
     content: "";
@@ -681,7 +693,7 @@ letter-spacing: 0.3px;
   position: absolute;
   color: red;
  top: 0%;
- height: 80%;
+ height: 108.2%;
  width: 100%;
  margin-left: -12px;
   content: "";
@@ -689,11 +701,23 @@ letter-spacing: 0.3px;
   background-size: cover;
   overflow: hidden;
 }
+#home_slide_overlay::after{
+  position: absolute;
+  color: red;
+ top: 0%;
+ height: 108.2%;
+ width: 100%;
+ margin-left: -12px;
+  content: "";
+  background-color: #201d1d94;
+  background-size: cover;
+  overflow: hidden;
+}
 #services-h2{
   color: white;
  position: absolute;
  left: 44.5%;
- top: 53%;
+ top: 71%;
  font-size: 40px;
  z-index: 1;
  }
@@ -994,7 +1018,7 @@ z-index: 1;
   position: absolute;
   color: red;
  top: 0%;
- height: 80%;
+ height: 108.2%;
  width: 100%;
  margin-left: -12px;
   content: "";
@@ -1107,3 +1131,59 @@ filter: grayscale(100%);
   display: block;
   margin-top: 0;
 }
+.js-preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #292929;
+  z-index: 999999;
+  }
+#spinner-wrapper, #spinner-wrapper:before, #spinner-wrapper:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.js-preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #292929;
+  z-index: 999999;
+}
+.js-preloader, .js-preloader:before, .js-preloader:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.preloader {
+width: 40px;
+height: 40px;
+background-color: #ed1c24;
+margin: -20px;
+animation: sk-rotateplane 1.2s infinite ease-in-out;
+position: absolute;
+left: 50%;
+top: 50%;
+}
+@keyframes sk-rotateplane {
+0% {
+  transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+}
+50% {
+  transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+}
+100% {
+  transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+}
+}
+.js-preloader.loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+

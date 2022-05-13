@@ -50,7 +50,7 @@ export default function serviceFive() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={servicefive1} id="service-five-img" />
+            <img src={servicefive1} id="service-five-img" alt="my-pic" />
           </div>
           <p id="complete-design-para4">
             Our search engine solutions include : Analysis of the web site,

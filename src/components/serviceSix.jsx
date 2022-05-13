@@ -39,7 +39,7 @@ export default function serviceSix() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={servicesix2} id="service-three-img" />
+            <img src={servicesix2} id="service-three-img" alt="my-servicesix" />
           </div>
         </div>
       </div>

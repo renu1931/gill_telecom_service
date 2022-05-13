@@ -31,7 +31,7 @@ export default function servicesPartOne() {
       <div className="container py-5">
         <div className="row">
           <div className="col-md-6">
-            <img src={complete_design} id="complete_design-img" />
+            <img src={complete_design} alt="my-pic" id="complete_design-img" />
           </div>
           <div className="col-md-6">
             <h1 id="complete-design-h1">

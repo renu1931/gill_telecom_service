@@ -42,7 +42,11 @@ export default function creativeDesign() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={creatve_design_dividor} id="complete_design-img" />
+            <img
+              src={creatve_design_dividor}
+              id="complete_design-img"
+              alt="creative"
+            />
           </div>
           <p id="creative-design-para1">
             We believe every website is different. We cover all apsects of

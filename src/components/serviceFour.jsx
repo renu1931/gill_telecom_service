@@ -47,7 +47,7 @@ export default function serviceFour() {
             </p>
           </div>
           <div className="col-md-6">
-            <img src={servicefour1} id="service-four-img" />
+            <img src={servicefour1} id="service-four-img" alt="my-pic" />
           </div>
         </div>
       </div>

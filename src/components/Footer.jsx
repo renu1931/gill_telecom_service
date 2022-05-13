@@ -46,20 +46,20 @@ export default function Footer() {
           <div className="col-md-3">
             <h3 id="footer-services1">Our Services</h3>
             <p id="footer-services">
-              <a href="Development and Website Designing">
+              <a href="/complete-designing-and-development-website">
                 <i class="fa-solid fa-circle-check"></i>Complete WebSite
                 Development <br />
                 <span>and Website Designing</span>
               </a>
             </p>
             <p id="footer-services">
-              <a href="Creative Web Design">
+              <a href="/creative-web-design">
                 <i class="fa-solid fa-circle-check"></i>
                 Creative Web Design
               </a>
             </p>
             <p id="footer-services">
-              <a href="Multimedia Presentations">
+              <a href="/multimedia-presentations">
                 <i class="fa-solid fa-circle-check"></i>
                 Multimedia Presentations
               </a>
@@ -67,28 +67,24 @@ export default function Footer() {
           </div>
           <div className="col-md-3">
             <p id="footer-services">
-              <a href="Search Engine Optimisation">
+              <a href="/search-engine-optimisation">
                 <i class="fa-solid fa-circle-check"></i>
                 Search Engine Optimisation
               </a>
             </p>
             <p id="footer-services">
-              <a
-                href="Custom Web Development
-            "
-              >
+              <a href="/custom-web-development">
                 <i class="fa-solid fa-circle-check"></i>
                 Custom Web Development
               </a>
             </p>
             <p id="footer-services">
-              <a href="e-Business">
+              <a href="/e-business">
                 <i class="fa-solid fa-circle-check"></i>
                 e-Business
               </a>
             </p>
           </div>
-         
         </div>
       </div>
       <p id="footer-last-p">
