@@ -309,24 +309,26 @@ padding-left: 5px;
  #input-1{
   margin-left: 90px;
   width: 85%;
+  color: #e6e9ec;
   background-color: black;
   padding-top: 11px;
   padding-left: 10px;
   padding-bottom: 11px;
   margin-bottom: 10px;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 16px;
   border: 2px solid gray;
  }
  #input-2{
   margin-left: 90px;
   padding-left: 10px;
   width: 85%;
+  color: #e6e9ec;
   background-color: black;
   padding-top: 11px;
   padding-bottom: 60px;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 16px;
   border: 2px solid gray;
  }
  #input_btn{
