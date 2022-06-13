@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import home_slide from "../images/home_slide.jpg";
 import home_slide2 from "../images/home_slide2.jpg";
 import flip1 from "../images/flip1.png";
@@ -24,6 +24,13 @@ AOS.init({
 });
 
 export default function Home() {
+  const [data, setData] = useState(null);
+  const [print, setPrint] = useState(false);
+  function getData(val) {
+    console.log(val.target.value);
+    setData(val.target.value);
+    setPrint(false);
+  }
   return (
     <>
       {/*slider content stasrt */}
@@ -126,7 +133,6 @@ export default function Home() {
         </div>
       </div>
       {/*heading section complete */}
-
       {/*zoom section start */}
       <div className="container">
         <div className="row">
@@ -349,6 +355,7 @@ export default function Home() {
         </div>
       </div>
       {/*flip section complete */}
+      {print ? <h1>{data}</h1> : null}
       {/* lets talk section start*/}
       <div
         className="container-fluid py-5"
@@ -362,7 +369,7 @@ export default function Home() {
               and learn how to start leveraging your business.
             </p>
             <form>
-              <input placeholder="Name" id="input-1" />
+              <input placeholder="Name" id="input-1" onChange={getData} />
               <br />
               <input placeholder="Phone" id="input-1" />
               <br />
@@ -370,7 +377,7 @@ export default function Home() {
               <br />
               <input placeholder="Message" id="input-2" />
               <br />
-              <button id="input_btn">
+              <button id="input_btn" onClick={() => setPrint(true)}>
                 Submit<i class="fa-solid fa-angles-right"></i>
               </button>
             </form>
